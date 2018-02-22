@@ -1,0 +1,33 @@
+body
+{
+	background-image:url(ariel.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+
+a
+{
+	color:MediumPurple;
+}
+
+a:hover
+{
+	color:Fuchsia;
+}
+
+p
+{
+	font-family:verdana;
+	font-size:12pt;
+	color:LightSeaGreen;
+	background-color:white;
+}
+
+p.class
+{
+	font-family:georgia;
+	font-size:12pt;
+	color:Navy;
+	background-color:white;
+}

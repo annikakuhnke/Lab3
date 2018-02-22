@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title> Change the Colors </title>
+		<script type="text/javascript" 
+			src="manip.js">
+		</script>
+		<style>
+		#myParagraph {background-color: rgb(255,255,255);
+		border-style:solid;
+		border-width:2px;
+		border-color:rgb(0,0,0);
+		}
+		</style>
+	</head>
+	<body>
+		<p id="myParagraph">This is a dummy paragraph that shall contain nonsense. I see a silhouetto of a man Scaramouche, Scaramouche, will you do the Fandango? Thunderbolt and lightning, very ,very frightening me Galileo. Galileo. Galileo Figaro magnifico I'm just a poor boy, nobody loves me He's just a poor boy from a poor family Spare him his life from this monstrosity Easy come, easy go, will you let me go? Bismillah! No, we will not let you go</p>
+		<br>
+		Please input color values for the border using RGB scale
+		<br>
+		red input
+		<input type="number" id="border_red">
+		<br>
+		green input
+		<input type="number" id="border_green">
+		<br>
+		blue input
+		<input type="number" id="border_blue">
+		<br>
+		width
+		<input type="text" id="border_width">
+		<br>
+		Please input color values for the background using RGB scale
+		<br>
+		red input
+		<input type="number" id="background_red">
+		<br>
+		green input
+		<input type="number" id="background_green">
+		<br>
+		blue input
+		<input type="number" id="background_blue">
+		<br>
+		<button type="button"
+		onclick="colorChange()">
+		Change </button>
+	</body>
+</html>
